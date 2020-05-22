@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <title>Covid 19 Live Status India</title>
+<style>
+
+
+
+</style>
+  
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light ">
+    <a class="navbar-brand " href="#">
+      <img src="static/images/1.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+      Covid 19 Live Status India <br>
+
+    </a>
+  </nav>
+
+
+  <nav class="navbar navbar-light " style="background-color: #e3f2fd;">
+    <a class="navbar-brand mx-auto  " href="#">
+
+      Developer &nbsp;<svg class="bi bi-reply-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9.079 11.9l4.568-3.281a.719.719 0 000-1.238L9.079 4.1A.716.716 0 008 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z"/>
+      </svg> {{developer}}
+
+    </a>
+  </nav>
+
+
+  <div class="alert alert-warning" role="alert">
+    <button class="btn btn-danger" type="button" >
+      <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+      Live  
+      
+    </button>
+    <p class="float-right">Last Updated : {{ LastUpdate }}</p>
+  </div>
+  
+
+  <div class="alert alert-warning alert-dismissible fade show marquee" role="alert">
+    
+    <marquee><strong>Source:  Ministry of Health and Family Welfare, GOI  (mohfw.gov.in) </strong></marquee>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+
+  {% block body %} 
+
+
+
+
+  {% endblock body %}
+
+
+
+
+<script>
+
+  function myfunc() {
+    location.reload();
+     alert("Covid 19 Live Status India : This page is now refurbished  with all  latest information.");
+    
+  }
+</script>
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
